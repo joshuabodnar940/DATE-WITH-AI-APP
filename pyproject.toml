@@ -1,0 +1,20 @@
+[project]
+name = "resonance"
+version = "0.1.0"
+description = "Consent-first chemistry matching domain logic"
+authors = [{name = "Resonance Team"}]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["."]
