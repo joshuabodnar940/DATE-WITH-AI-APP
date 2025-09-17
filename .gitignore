@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+resonance.db
+test_resonance.db
